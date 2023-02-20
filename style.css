@@ -107,7 +107,7 @@ color: #ffffff;
 
 
 /* Responsiveness */
-@media only screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 991px){
   .carousel-caption{
     bottom: 370px;
   }
@@ -119,7 +119,7 @@ color: #ffffff;
     margin-left: auto;
   }
 }
-@media only screen and (max-width: 767px){
+@media screen and (max-width: 767px){
   .navbar-nav{
     text-align: center;
   }
