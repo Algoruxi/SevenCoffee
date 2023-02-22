@@ -189,7 +189,10 @@ color: #ffffff;
     margin-top: auto;
     margin-left: auto;
   }
-  
+  .navbar-nav{
+    text-align: center;
+    padding: 20px;
+  }
 }
 @media screen and (max-width: 767px){
   .navbar-nav{
