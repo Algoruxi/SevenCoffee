@@ -69,7 +69,7 @@ color: #ffffff;
 }
 .nav-link.active{
   background-color: #ffffff;
-  border-radius: 15%;
+  border-radius: 20px;
   
 }
 .w-100{
@@ -141,7 +141,40 @@ color: #ffffff;
   width: 80px;
   height: 80px;
 }
-
+.card-prop{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border: none;
+}
+.card-bg-1{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../img/espresso.jpg);
+}
+.card-bg-2{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../img/cappucino.jpg);
+}
+.card-bg-3{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../img/latte-coffee-cup.jpg);
+}
+.card-bg-4{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../img/espresso.jpg);
+}
+.card-bg-5{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../img/carousel-2.jpg);
+}
+.card-bg-6{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../img/carousel-3.jpg);
+}
+.card-bg-7{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../img/carousel-4.jpg);
+}
+.card-bg-8{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../img/service-2.jpg);
+}
+.card-bg-9{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../img/carousel-1.jpg);
+}
 
 
 /* Responsiveness */
@@ -156,23 +189,31 @@ color: #ffffff;
     margin-top: auto;
     margin-left: auto;
   }
+  
 }
 @media screen and (max-width: 767px){
   .navbar-nav{
     text-align: center;
+  }
+  .nav-link.active{
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 0px 150px;
+    
   }
   .carousel-caption{
     bottom: 125px;
   }
   .carousel-caption h4{
     font-size: 20px;
+    font-weight: 200;
   }
   .carousel-caption a{
     padding: 10px 10px;
     font-size: 14px;
   }
   .carousel-caption p{
-    width: 100px;
+    width: 200px;
     line-height: 1.6;
     font-size: 14px;
   }
