@@ -8,10 +8,6 @@ body{
   background-color: #b55420;
   border: none;
 }
-#coffee .container .btn{
-  margin-top: 10px;
-  margin-left: 45%;
-}
 .col-12{
   margin-bottom: 10px;
 }
@@ -68,24 +64,13 @@ color: #ffffff;
   font-weight: 500;
   color: #000;
 }
-.navbar-brand{
-  color: #000;
+.nav-link:hover{
+  color: #ffffff;
 }
-.navbar-light .navbar-brand{
-  color: #f1fbff;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-.navbar-nav a:focus,
-.navbar-nav a:active,
-.navbar-nav a:hover{
-  color: #f1fbff;
-  text-decoration: underline;
-}
-.navbar-light .navbar-nav .navbar-link{
-  color: #f1fbff;
+.nav-link.active{
+  background-color: #ffffff;
+  border-radius: 15%;
+  
 }
 .w-100{
   height: 100vh;
@@ -100,6 +85,9 @@ color: #ffffff;
 .card-title .card-text{
   color: #000;
   text-align: left;
+}
+.row .coffee-card{
+  background-image: url("cappucino.jpg");
 }
 
 
