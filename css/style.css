@@ -38,6 +38,7 @@ color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 25px;
+  font-weight: 250;
 }
 .carousel-caption p{
   margin: auto;
@@ -180,10 +181,20 @@ color: #ffffff;
 /* Responsiveness */
 @media screen and (min-width: 768px) and (max-width: 991px){
   .carousel-caption{
-    bottom: 370px;
+    bottom: 125px;
+  }
+  .carousel-caption h4{
+    font-size: 20px;
+    font-weight: 250;
+  }
+  .carousel-caption a{
+    padding: 10px 10px;
+    font-size: 14px;
   }
   .carousel-caption p{
-    width: 100px;
+    width: 200px;
+    line-height: 1.6;
+    font-size: 14px;
   }
   #coffee .container .btn{
     margin-top: auto;
@@ -209,7 +220,7 @@ color: #ffffff;
   }
   .carousel-caption h4{
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 250;
   }
   .carousel-caption a{
     padding: 10px 10px;
