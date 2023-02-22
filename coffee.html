@@ -6,7 +6,7 @@
     <title>Coffee</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     
@@ -14,7 +14,7 @@
     
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="seven1.png" width="150" alt="seven logo"></a>
+        <a class="navbar-brand" href="index.html"><img src="img/seven1.png" width="150" alt="seven logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,10 +31,8 @@
             </li>
             <li class="nav-item">
               <a class="nav-link "  href="about.html">About</a>
-            </li>
-                      
+            </li>        
           </ul>
-          
         </div>
       </div>
     </nav>
@@ -42,158 +40,91 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="espresso.jpg" class="d-block w-100" alt="...">
+          <img src="img/cappucino.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
             <h1>Choose your <span class="text-warning" >Se7en</span> coffee</h1>
               <p><a href="#services" class="btn btn-warning mt-3">Get one</a></p>
           </div>
         </div>
       </div>
-
     </div>
 
-    <!-- Coffee-->
-
-    <section id="services" class="services section-padding">
-      <div class="container gap-3">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-header text-center pb-5">
-              <h2>Coffee</h2>
+    <!-- Service Start -->
+    <section id="services" class="services section-padding"> 
+      <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Coffee</h4>
+                <h1 class="display-4">Fresh & Organic Beans</h1>
             </div>
-          </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/3-CaffeAmericano_ContactShadow_Green_1.webp" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-truck service-icon"></i>Americano</h4>
+                            <p class="m-0">
+                              A classic espresso-based drink, made by adding hot water to a shot of espresso. It has a smooth, rich flavor and is a
+                              popular choice for those who prefer a simpler coffee experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/mocha.png" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-coffee service-icon"></i>Mocha</h4>
+                            <p class="m-0">
+                              A decadent coffee drink made by combining espresso with chocolate syrup and steamed milk. It has a rich, chocolatey 
+                              flavor and is perfect for those who enjoy a sweeter coffee experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/2-IcedLatte_LongShadow_Cream_1.webp" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-award service-icon"></i>Iced Latee</h4>
+                            <p class="m-0">
+                              A refreshing and delicious coffee drink made by combining espresso with cold milk and ice. It has a creamy texture and
+                              is a perfect choice for a hot summer day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/flat-white.png" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-table service-icon"></i>Flat White</h4>
+                            <p class="m-0">
+                              A specialty coffee drink that originated in Australia and New Zealand. It's made by pouring velvety steamed milk over 
+                              a double shot of espresso, creating a smooth and creamy texture with a strong coffee flavor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="row">
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-          
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="coffee-card col-12 col-md-12 col-lg-4">
-            <div class="card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-12 col-lg-4">
-            <div class="coffee-card card text-white text-center bg-secondary">
-              <div class="card-body">
-                
-                <h3 class="card-title pb-5 pt-5">Espresso</h3>
-            
-              </div>
-            </div>
-          </div>
-
-        </div>
+        
 
       </div>
-
     </section>
+    <!-- Service End -->
 
+    <!-- Footer start -->
     <footer class="text-white bg-dark">
-
       <div class="container text-left text-md-left">
         <div class="row text-left text-md-left">
           <div class="col-md-5 pt-4">
@@ -276,7 +207,8 @@
         </div>
       </div>
       
-</footer>
+    </footer>
+    <!-- Footer ends -->
 
   </body>
 </html>
